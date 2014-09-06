@@ -3,8 +3,8 @@ title: Stonewall Community
 email: stonewallweb@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   An online resource for the residents of the Stonewall neighborhood located in Lexington, Kentucky.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/stonewall/" # the subpath of your site, e.g. /blog/
+url: "http://caseyy.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
