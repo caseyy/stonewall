@@ -1,0 +1,41 @@
+<footer class="footer">
+  <div class="footer-links">
+    <ul>
+      <li><h3>General</h3></li>
+      <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+      <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
+	  <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+    </ul>
+    <ul>
+      <li><h3>Association</h3></li>
+      <li><a href="/association" | prepend: site.baseurl }}">Information</a></li>
+      <li><a href="/calendar" | prepend: site.baseurl }}">Calendar</a></li>
+      <li><a href="/documents" | prepend: site.baseurl }}">Documents</a></li>
+	  <li><a href="/safety" | prepend: site.baseurl }}">Safety</a></li>
+    </ul>
+    <ul>
+      <li><h3>Other</h3></li>
+      <li><a href="{{ "/parks" | prepend: site.baseurl }}">Parks</a></li>
+      <li><a href="{{ "/schools" | prepend: site.baseurl }}">Schools</a></li>
+	  <li><a href="{{ "/links" | prepend: site.baseurl }}">Links</a></li>
+    </ul>
+  </div>
+
+  <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+  <script>
+	$(document).ready(function() {
+	  var menu = $('.centered-navigation-menu');
+	  var menuToggle = $('.centered-navigation-menu-button');
+	  var signUp = $('.sign-up');
+
+	  $(menuToggle).on('click', function(e) {
+		e.preventDefault();
+		menu.slideToggle(function(){
+		  if(menu.is(':hidden')) {
+			menu.removeAttr('style');
+		  }
+		});
+	  });
+	});
+  </script>
+</footer>
