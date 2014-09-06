@@ -14,7 +14,7 @@ With over 1000 residences within the Stonewall neighborhood, this project has be
 Contact Don by phone at 224-8017 or e-mail him at dstarsinic@stonewallinfo.com.  
 Contact Harold by phone at 224-9459 or e-mail him at hodonnell@stonewallinfo.com.
 
-Our list of Safety Watch Block Captain Assignments is available in the [Documents](/documents) section of our website.  
+Our list of Safety Watch Block Captain Assignments is available in the [Documents]({{ "/documents" | prepend: site.baseurl }}) section of our website.  
 
 Check our [Message Board](https://groups.google.com/forum/#!forum/stonewall-community) for the latest safety alerts or to post your own message. 
 
