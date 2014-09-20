@@ -10,7 +10,7 @@ permalink: /blog/
 		    {% for post in site.posts %}
 			  <div class="card"><a href="{{ post.url | prepend: site.baseurl }}">
 				<div class="card-image">
-				  <img src="{{ post.thumbnail | prepend: site.images }}" alt="">
+				  <img src="{{ post.image | prepend: site.images }}" alt="">
 				</div>
 				<div class="card-header">
 				  {{ post.title }}
