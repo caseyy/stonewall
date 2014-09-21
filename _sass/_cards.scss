@@ -12,7 +12,7 @@
   $card-image-hover-background: lighten($card-image-background, 5);
   $card-stats-color: lighten($base-accent-color, 10);
   $card-color: black;
-  
+
   @include transition (all 0.2s ease-in-out);
   background-color: $card-background;
   border-radius: $base-border-radius;
@@ -21,9 +21,9 @@
   cursor: pointer;
   position: relative;
   color: $card-color;
-  
+
   @include media($large-screen) {
-    @include span-columns(4);  
+    @include span-columns(4);
     @include omega(3n);
   }
 
@@ -31,7 +31,7 @@
 	color: black;
 	text-decoration: none;
   }
-  
+
   .card-image {
     overflow: hidden;
     max-height: 150px;
@@ -39,7 +39,7 @@
     img {
       width: 100%;
       @include transition (all 0.2s ease-in-out);
-      background: $card-image-background;
+      background: $card-image-background center center;
       border-top-left-radius: $base-border-radius;
       border-top-right-radius: $base-border-radius;
     }
@@ -96,7 +96,7 @@
     overflow: auto;
 	color: lighten(gray, 10);
 	font-size: 90%;
-	
+
     ul li {
       display: inline;
       font-weight: 800;
@@ -125,11 +125,11 @@
 
   &:hover {
     background-color: $card-hover-background;
-    
+
     .card-image img {
       background: $card-image-hover-background;
     }
-  
+
     .card-header {
       background-color: $card-hover-background;
     }
