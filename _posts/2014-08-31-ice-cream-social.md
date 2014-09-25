@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Ice Cream Social
+thumbnail: dessert-thumb.jpg
 image: dessert.jpg
 ---
 
