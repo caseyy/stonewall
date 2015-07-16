@@ -1,6 +1,10 @@
 ---
 published: false
+layout: post
+thumbnail: "dessert-thumb.jpg"
+image: dessert.jpg
 ---
+
 
 ## A New Post
 
